@@ -1,20 +1,24 @@
 {
-  "name": "ContentScroller",
-  "version": "0.0.1",
-  "homepage": "https://github.com/matfin/ContentScroller",
-  "authors": [
-    "Matt Finucane <matfin@gmail.com>"
-  ],
-  "description": "An infinte scroller plugin for loading content",
-  "keywords": [
-    "infinite",
-    "scroller"
-  ],
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "jquery": "~2.1.1",
-    "underscore": "~1.7.0",
-    "q": "~2.0.2"
-  }
+    "name": "ContentScroller",
+    "version": "0.0.1",
+    "main": [
+        "_src/Fetcher.js",
+        "_src/Scroller.js"
+    ],
+    "homepage": "https://github.com/matfin/ContentScroller",
+    "authors": [
+        "Matt Finucane <matfin@gmail.com>"
+    ],
+    "description": "An infinte scroller plugin for loading content",
+    "keywords": [
+        "infinite",
+        "scroller"
+    ],
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "jquery": "~2.1.1",
+        "underscore": "~1.7.0",
+        "q": "~2.0.2"
+    }
 }
