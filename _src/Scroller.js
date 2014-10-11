@@ -1,9 +1,8 @@
 /**
- *	The Scroller class populates the scrollable viewport with content
+ *	The Scroller class manages the scroll container behaviour
  *	
  *	@class Scroller
  */
-
 function Scroller() {
 
 	/**
@@ -14,6 +13,15 @@ function Scroller() {
 	 *	@type		{Number}
 	 */
 	this.numItemsRequired;
+
+	/**
+	 *	The number of items present in the 
+	 *	scroll container
+	 *
+	 *	@property	numItemsPresent
+	 *	@type		{Number}
+	 */
+	this.numItemsPresent;
 };
 
 /**
@@ -23,6 +31,6 @@ function Scroller() {
  *	@param	{String} scrollerContainer - Selector for the scroller container
  */
 Scroller.prototype.init = function(scrollerContainer) {
-
+	console.log('Hello from the scroller');
 };
 
