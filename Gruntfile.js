@@ -33,7 +33,7 @@ module.exports = function(grunt) {
 
  		watch: {
  			development: {
- 				files: ['_src/*.js'],
+ 				files: ['_src/*.js', 'bower_components/**/*.js'],
  				tasks: ['uglify:development']
  			}
  		}
