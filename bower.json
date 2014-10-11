@@ -1,0 +1,18 @@
+{
+  "name": "ContentScroller",
+  "version": "0.0.1",
+  "homepage": "https://github.com/matfin/ContentScroller",
+  "authors": [
+    "Matt Finucane <matfin@gmail.com>"
+  ],
+  "description": "An infinte scroller plugin for loading content",
+  "keywords": [
+    "infinite",
+    "scroller"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
