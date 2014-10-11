@@ -5,6 +5,9 @@
         "_src/Fetcher.js",
         "_src/Scroller.js"
     ],
+    "ignore": [
+        "bower_components/"
+    ],
     "homepage": "https://github.com/matfin/ContentScroller",
     "authors": [
         "Matt Finucane <matfin@gmail.com>"
